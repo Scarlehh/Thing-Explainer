@@ -171,9 +171,6 @@ var wordPairs = {
 var re = new RegExp(Object.keys(wordPairs).join('|'), 'gi');
 
 function explainify(word){
-	if (Math.random() < 0.01) {
-		return "Hitler";
-	}
 	var candidate = wordPairs[word.toLowerCase().trim()];
 	return (candidate === null || candidate === undefined ? word : candidate);
 
