@@ -1,5 +1,14 @@
 var elements = document.getElementsByTagName('*');
 
+var wordPairs = {
+   cat: "dog",
+   dog: "hitler",
+};
+
+function explainify(word){
+	return wordPairs[word];
+}
+
 for (var i = 0; i < elements.length; i++) {
     var element = elements[i];
 
@@ -8,10 +17,9 @@ for (var i = 0; i < elements.length; i++) {
 
         if (node.nodeType === 3) {
             var text = node.nodeValue;
-            var replacedText = text.replace(/Hitler/gi, 'Hatler');
-
-            if (replacedText !== text) {
-                element.replaceChild(document.createTextNode(replacedText), node);
+			var str = text.replace(/cat|dog|goat/gi, explainify);
+            if (str !== text) {
+                element.replaceChild(document.createTextNode(str), node);
             }
         }
     }
