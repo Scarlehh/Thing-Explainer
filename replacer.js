@@ -3,10 +3,10 @@ var elements = document.getElementsByTagName('*');
 var wordPairs = {
 	dog: "hitler",
 	easter: "god's son living again day",
-	irish: "green",
+	irish: "small green country",
 	rebellion: "fighting against",
 	insurrection: "fight",
-	ireland: "green place",
+	ireland: "green people country",
 	april: "month four",
 	launched: "started doing",
 	republicans: "people who want people-decided power",
@@ -14,7 +14,7 @@ var wordPairs = {
 	rule: "law making",
 	establish: "make",
 	independent: "on their own",
-	republic: "alone country",
+	republic: "country where the people choose the leader",
 	united: "together",
 	kingdom: "big man at the top country",
 	heavily: "strongly",
@@ -22,6 +22,19 @@ var wordPairs = {
 	significant: "really big",
 	uprising: "big fight",
 	action: "doing",
+	organised: "did",
+	military: "fighting people",
+	council: "decision people",
+	brotherhood: "group of brothers",
+	monday: "day one of the week",
+	volunteers: "people who work for free",
+	schoolmaster: "big school man",
+	activist: "cause furtherer",
+	seized: "took",
+	thousand: "ten hundred",
+	thousands: "tens of hundreds",
+	gradually: "slowly",
+
 };
 
 var re = new RegExp(Object.keys(wordPairs).join('|'), 'gi');
