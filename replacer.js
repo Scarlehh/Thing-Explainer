@@ -12,7 +12,7 @@ var wordPairs = {
 	launched: "fired in the air",
 	republicans: "alone country-running people",
 	british: "other country",
-	rule: "making to to",
+	rule: "making to",
 	establish: "make",
 	independent: "on their own",
 	republic: "alone country",
