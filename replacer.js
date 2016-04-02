@@ -1,18 +1,17 @@
 var elements = document.getElementsByTagName('*');
 
 var wordPairs = {
-	cat: "dog",
 	dog: "hitler",
-	easter: "god son living again day",
+	easter: "god's son living again day",
 	irish: "green",
 	rebellion: "fighting against",
-	insurrection: "against-ing",
+	insurrection: "fight",
 	ireland: "green place",
 	april: "month four",
-	launched: "fired in the air",
-	republicans: "alone country-running people",
+	launched: "started doing",
+	republicans: "people who want people-decided power",
 	british: "other country",
-	rule: "making to",
+	rule: "law making",
 	establish: "make",
 	independent: "on their own",
 	republic: "alone country",
