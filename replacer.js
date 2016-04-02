@@ -108,6 +108,17 @@ var wordPairs = {
 	volunteers: "people who work for free",
 	website: "computer page",
 	websites: "computer pages",
+	brewed: "put in hot water",
+	brew: "put in hot water",
+	roasted: "making hot until nice",
+	roast: "heat until nice",
+	bean: "bit",
+	beans: "bits",
+	prepared: "made ready",
+	berries: "nice good for you foods",
+	berry: "nice good for you food",
+	seeds: "childrens",
+	seed: "children",
 };
 
 var re = new RegExp(Object.keys(wordPairs).join('|'), 'gi');
