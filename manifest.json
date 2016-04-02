@@ -1,11 +1,11 @@
 {
     "manifest_version": 2,
-    "name": "Godwin's Law",
-    "description": "Check for mentions of 'Hitler' in current page",
-    "version": "1.0",
+    "name": "Thing Explainifier",
+    "description": "silver metal add on to make the words on the page only the ten hundred most used words",
+    "version": "0.0",
     "icons": {"128": "icon128.png"},
     "browser_action": {
-        "default_title": "Highlights mentions of Hitler",
+        "default_title": "Use only ten hundred most common words",
         "default_icon": "icon.png"
     },
     "background": {
@@ -17,7 +17,7 @@
         {
             "matches": ["*://*/*"],
             "js": ["content.js"],
-            "css": ["godwin.css"]
+            "css": ["explainifier.css"]
         }
     ]
 }
