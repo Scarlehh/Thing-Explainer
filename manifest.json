@@ -2,7 +2,7 @@
     "manifest_version": 2,
     "name": "Thing Explainifier",
     "description": "silver metal add on to make the words on the page only the ten hundred most used words",
-    "version": "1.0",
+    "version": "1.0.45",
     "icons": {"128": "icon128.png"},
     "browser_action": {
         "default_title": "Use only ten hundred most common words",
