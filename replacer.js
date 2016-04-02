@@ -6,7 +6,8 @@ var wordPairs = {
 };
 
 function explainify(word){
-	return wordPairs[word];
+	var candidate = wordPairs[word.toLowerCase()];
+	return candidate === null? word : candidate;
 }
 
 for (var i = 0; i < elements.length; i++) {
