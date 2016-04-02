@@ -20,13 +20,14 @@ function highlightWord(word){
             after.parentNode.insertBefore(span,after);
         }
     }
-    return count;
+	return count;
 }
+
 
 chrome.runtime.onMessage.addListener(
     function(message, sender, sendResponse) {
         if (message.command === "highlight"){
-            var count = highlightWord(message.phrase)
+            var count = highlightWord(message.phrase);
             sendResponse({phraseCount: count});
         }
     }
